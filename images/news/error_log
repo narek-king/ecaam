@@ -1,0 +1,6 @@
+[24-Jan-2013 00:17:10] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home3/webex/public_html/eca.am/images/news/classSimpleImage.php on line 31
+[24-Jan-2013 00:17:10] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '6.jpg' is not a valid JPEG file in /home3/webex/public_html/eca.am/images/news/classSimpleImage.php on line 31
+[24-Jan-2013 00:17:10] PHP Warning:  imagesx(): supplied argument is not a valid Image resource in /home3/webex/public_html/eca.am/images/news/classSimpleImage.php on line 60
+[24-Jan-2013 00:17:10] PHP Warning:  imagesy(): supplied argument is not a valid Image resource in /home3/webex/public_html/eca.am/images/news/classSimpleImage.php on line 63
+[24-Jan-2013 00:17:10] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home3/webex/public_html/eca.am/images/news/classSimpleImage.php on line 82

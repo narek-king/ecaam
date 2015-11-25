@@ -1,0 +1,1 @@
+[28-Jan-2013 12:05:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'menu.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home3/webex/public_html/eca.am/admin/gallery/gallery.php on line 62

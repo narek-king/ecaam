@@ -1,0 +1,43 @@
+body{
+    background: #dadada;
+    margin:0;
+    padding:0;
+}
+
+
+.adm_log{
+    width:487px;
+    height:367px;
+    background:url("../img/login.png") no-repeat;
+    padding:10px;
+    margin-left:100px;
+	margin-top:150px;
+}
+#login{
+    margin-top:45px;
+    margin-left:37px;
+}
+.log,.pass{
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ie-border-radius:10px;
+    outline:none;
+    padding:3px;
+}
+.log:focus{
+    background:#f0f0f0;
+}
+.pass:focus{
+    background:#f0f0f0;
+}
+.submit{
+     width:100px;
+     background:#dadada;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    -ie-border-radius:10px;
+    cursor:pointer;
+}

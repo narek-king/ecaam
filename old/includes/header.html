@@ -1,0 +1,345 @@
+<?php
+
+// Check for a $page_title value:
+if (!isset($page_title)) $page_title = 'Avedisian';
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
+<title>AvedisianSchool</title>
+<base href="<?=URL?>">
+<link rel="stylesheet" type="text/css" href="style/style-arm.css" />
+<link rel="stylesheet" href="style/calendarview.css" />
+<link rel="stylesheet" href="style/slider.css" />
+<link rel="stylesheet" type="text/css" href="style/slider-dprocashenq.css" />
+    <link rel="stylesheet" type="text/css" href="style/simpletree.css" />
+    <script type="text/javascript" src="js/simpletreemenu.js"> </script>
+<script src="js/prototype.js"></script>
+<script src="js/jquery-2.0.1.min.js"></script>
+<script>var jQ = jQuery.noConflict();</script>
+<script src="js/calendarview.js"></script>
+<script type="text/javascript" src="js/coda-slider.1.1.1.pack.js"></script>
+<script type="text/javascript" src="js/jquery-easing-1.3.pack.js"></script>
+<script type="text/javascript" src="js/jquery-easing-compatibility.1.2.pack.js"></script>
+
+<script>
+      function setupCalendars() {
+        // Embedded Calendar
+        Calendar.setup(
+          {
+            dateField: 'embeddedDateField',
+            parentElement: 'embeddedCalendar'
+          }
+        )
+
+        // Popup Calendar
+        Calendar.setup(
+          {
+            dateField: 'popupDateField',
+            triggerElement: 'popupDateField'
+          }
+        )
+      }
+
+      Event.observe(window, 'load', function() { setupCalendars() })
+</script>
+<script>
+jQuery(document).ready(function($) {
+			$('.slide-read-more,#facebook-like').hide();
+			$('#site-content-dproc').mouseover(function() {
+				$('.slide-read-more').show();
+			});
+			$('#site-content-dproc').mouseout(function() {
+				$('.slide-read-more').hide();
+			});
+			$('#subscribe').hide();
+			$('#social-facebook').mouseover(function() {
+				$('#facebook-like').fadeIn();
+			});
+			$('#facebook-like').mouseout(function() {
+				$('#facebook-like').fadeOut();
+			});
+
+			$('#menu-bajanortagrvel').click(function(e){
+				e.preventDefault();
+				$('#subscribe').fadeIn(500);
+				$('#sub-button').click(function() {
+					var name = $('#subscribe-name').val();
+					if(name == ''){
+						$('#sub-notification').html("<h4 align=\"center\">Լրացրեք ազատ թողնված դաշտը</h4>");
+					}
+					else {
+						$.ajax({
+							type: 'POST',
+							url: '/arm/subscribe',
+							data: {
+							name:name
+							},
+							success: function(data){
+								$('#sub-notification').html(data);
+								$('#subscribe').fadeOut(3000);
+								window.reload();
+							}
+						});	
+					}
+				});
+			});
+			$('#form-submit').click(function(b) {
+			b.preventDefault();
+			
+			var c_name = $('#name').val(),
+				c_email = $('#email').val(),
+				c_text = $('#text').val();
+				
+			if(c_name == '') {
+				$('#name').addClass('err');
+			}
+			else {
+				$('#name').removeClass('err');
+			}
+			
+			if(c_email == '') {
+				$('#email').addClass('err');
+			}
+			else {
+				$('#email').removeClass('err');
+			}
+			
+			if(c_text == '') {
+				$('#text').addClass('err');
+			}
+			else {
+				$('#text').removeClass('err');
+			}
+			
+			if(c_name && c_email && c_text){
+					$.ajax({
+							type: 'POST',
+							url: '/arm/send',
+							data: {
+							name:c_name,
+							email:c_email,
+							text:c_text
+							},	
+							success: function(data){
+								$('#form-notification').html(data);
+							}
+						});	
+			
+			}
+			
+			});
+			
+		});
+        
+        	var theInt = null;
+		var $crosslink, $navthumb;
+		var curclicked = 0;
+		
+		theInterval = function(cur){
+			clearInterval(theInt);
+			
+			if( typeof cur != 'undefined' )
+				curclicked = cur;
+			
+			$crosslink.removeClass("active-thumb");
+			$navthumb.eq(curclicked).parent().addClass("active-thumb");
+				$(".stripNav ul li a").eq(curclicked).trigger('click');
+			
+			theInt = setInterval(function(){
+				$crosslink.removeClass("active-thumb");
+				$navthumb.eq(curclicked).parent().addClass("active-thumb");
+				$(".stripNav ul li a").eq(curclicked).trigger('click');
+				curclicked++;
+				if( 6 == curclicked )
+					curclicked = 0;
+				
+			}, 3000);
+		};
+		
+		$(function(){
+			
+			$("#main-photo-slider").codaSlider();
+			
+			$navthumb = $(".nav-thumb");
+			$crosslink = $(".cross-link");
+			
+			$navthumb
+			.click(function() {
+				var $this = $(this);
+				theInterval($this.parent().attr('href').slice(1) - 1);
+				return false;
+			});
+			
+			theInterval();
+		});
+</script>
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/hy_AM/sdk.js#xfbml=1&appId=500028706728133&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="site-page">
+	<div id="site-under-header" style="display: none;">
+		<a class="flag-arm" href="index.php?<?if(isset($p)){echo "p=$p&";}if(isset($_GET['id'])){echo "id=".$_GET['id']."&";}?>lang=am"></a>
+		<a class="flag-en" href="index.php?<?if(isset($p)){echo "p=$p&";}if(isset($_GET['id'])){echo "id=".$_GET['id']."&";}?>lang=eng"></a>
+		<div class="clear"></div>
+	</div>
+	<div id="site-header">
+			<a href="index.php" id="site-header-center" style="background: url('images/site-header-<?echo $lang;?>.png') no-repeat;"></a>
+	</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=400303863394500";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="site-content-container">
+
+				<!-----------MENU------------->
+					<div id="menu">
+			<ul id="home" class="treeview">
+
+							<!--	<li id="home"><a href="index.php"><h3><?echo $langu['MENUE_HOME'];?></h3></a></li>-->
+			</ul>
+
+			<ul id="about_us" class="treeview">
+
+							
+								<li ><h3><?echo $langu['MENUE_ABOUT'];?></h3>
+								<ul>
+								<li><a href="index.php?p=history"><? echo $langu['MENUE_ABOUT_HISTORY'];?></a></li>
+								<li><a href="index.php?p=vision"><? echo $langu['MENUE_ABOUT_VISION'];?></a></li>
+								<li><a href="index.php?p=value"><? echo $langu['MENUE_ABOUT_VALUE'];?></a></li>
+								<li><a href="index.php?p=our-mission"><? echo $langu['MENUE_ABOUT_MISSION'];?></a></li>
+								<li><a href="index.php?p=foundation"><? echo $langu['MENUE_ABOUT_FOUNDATION'];?></a></li>
+								<li><a href="index.php?p=our-achievements"><? echo $langu['MENUE_ABOUT_ACHIEVMENTS'];?></a></li>
+								<li><a href="index.php?p=our-team"><? echo $langu['MENUE_ABOUT_TEAM'];?></a></li>
+								<li><a href="index.php?p=our-recommendations"><? echo $langu['MENUE_ABOUT_RECOMENDATIONS'];?></a></li>
+								<li><a href="index.php?p=licensing"><? echo $langu['MENUE_ABOUT_LICENSING'];?></a></li>
+								<li><a href="index.php?p=financials"><? echo $langu['MENUE_ABOUT_FINANCIALS'];?></a></li>
+								<li><a href="index.php?p=cooperation"><? echo $langu['MENUE_ABOUT_COOPERATION'];?></a></li>
+								</ul>
+								</li>
+			</ul>
+
+			<ul id="teachers" class="treeview" >			
+							
+								<li><h3><? echo $langu['MENUE_teachers'];?></h3>
+								<ul >
+								<li><a href="index.php?p=teacher-schedule"><? echo $langu['MENUE_Teacher_schedule'];?></a></li>
+								<li><a href="index.php?p=homeroom-teachers"><? echo $langu['MENUE_Homeroom_teachers'];?></a></li>
+								<li><a href="index.php?p=exemplary-lessons"><? echo $langu['MENUE_Exemplary_lessons'];?></a></li>
+								<li><a href="index.php?p=teacher-training"><? echo $langu['MENUE_Teacher_training'];?></a></li>
+								</ul>
+								</li>
+			</ul>
+
+			<ul id="ashakert" class="treeview">					
+							
+								<li><h3><? echo $langu['MENUE_Pupils'];?></h3>
+								<ul>
+								<li><a href="index.php?p=pupils-schedule"><? echo $langu['MENUE_Pupils_schedule'];?></a></li>
+								<li><a href="index.php?p=books"><? echo $langu['MENUE_Pupils_textbook'];?></a></li>
+								<li><a href="index.php?p=groups"><? echo $langu['MENUE_Pupils_Groups'];?></a></li>
+								<li><a href="index.php?p=clubs"><? echo $langu['MENUE_Pupils_Clubs'];?></a></li>
+								<li><a href="index.php?p=extracurricular-activities"><? echo $langu['MENUE_Pupils_activities'];?></a></li>
+								<li><a href="index.php?p=fakulty-lessons"><? echo $langu['MENUE_Pupils_Fakulty'];?></a></li>
+								<li><a href="index.php?p=longday-groups"><? echo $langu['MENUE_Pupils_Longday_groups'];?></a></li>
+								<li><a href="index.php?p=wall-paper"><? echo $langu['MENUE_Pupils_Wallpaper'];?></a></li>
+								<li><a href="index.php?p=pupil-works"><? echo $langu['MENUE_Pupils_works'];?></a></li>
+								<li><a href="index.php?p=literature"><? echo $langu['MENUE_Pupils_Literature'];?></a></li>
+								</ul>
+								</li>
+			</ul>
+
+			<ul id="shrjanavart" class="treeview">					
+					
+					<li><h3><? echo $langu['MENUE_Graduates'];?></h3>
+								<ul  >
+								<li><a href="index.php?p=about-graduates"><? echo $langu['MENUE_Graduates_About graduates'];?></a></li>
+								<li><a href="index.php?p=reviews"><? echo $langu['MENUE_Graduates_Reviews'];?></a></li>
+								</ul>
+					</li>
+			</ul>
+
+			<ul id="news" class="treeview">				
+							
+							<li><h3><? echo $langu['MENUE_News'];?></h3>
+								<ul  >
+								<li><a href="index.php?p=news"><? echo $langu['MENUE_News_News'];?></a></li>
+							<!--	<li><a href="index.php?p=in-school"><? echo $langu['MENUE_News_school'];?></a></li>
+								<li><a href="index.php?p=extracurricular"><? echo $langu['MENUE_News_Extracurricular'];?></a></li>
+								<li><a href="index.php?p=goverment"><? echo $langu['MENUE_News_Goverment'];?></a></li>
+								<li><a href="index.php?p=community"><? echo $langu['MENUE_News_Community'];?></a></li>
+								<li><a href="index.php?p=exterritorial"><? echo $langu['MENUE_News_Exterritorial'];?></a></li> -->
+								<li><a href="index.php?p=visitors"><? echo $langu['MENUE_News_Visitors'];?></a></li>
+								<li><a href="index.php?p=video"><? echo $langu['MENUE_News_Videos'];?></a></li>
+								</ul>
+							</li>
+			</ul>
+
+			<ul id="mankapartez" class="treeview">					
+							
+							<li><h3><? echo $langu['MENUE_Kindergarten'];?></h3>
+								<ul  >
+								<li><a href="index.php?p=tutors"><? echo $langu['MENUE_Kindergarten_Tutors'];?></a></li>
+								<li><a href="index.php?p=kinder-groups"><? echo $langu['MENUE_Kindergarten_groups'];?></a></li>
+								<li><a href="index.php?p=programms"><? echo $langu['MENUE_Kindergarten_Programms'];?></a></li>
+								</ul>
+							</li>
+			</ul>
+
+	<!--		<ul id="nyuter" class="treeview">				
+							
+							<li><h3><a href="index.php?p=materials"><?echo $langu['MENUE_materials'];?></a></h3>
+								
+							</li>
+							
+				</ul>
+			<ul id="bajanordagrvel" class="treeview">
+
+								<li id="home"><h3 class="small">Բաժանորդագրվել</h3></li>
+                               
+                                <div id="subscribe">
+					<input type="text" id="subscribe-name" placeholder="email" name="subscribe-name" />
+					<button class="large awesome blue" id="sub-button" type="submit">բաժանորդագրվել</button>
+					<div id="sub-notification"></div>
+				</div>
+			</ul>  -->
+
+
+			<script type="text/javascript">
+			ddtreemenu.createTree("home", true, 1)
+ddtreemenu.createTree("about_us", true, 1)
+ddtreemenu.createTree("teachers", true, 1)
+ddtreemenu.createTree("ashakert", true, 1)
+ddtreemenu.createTree("shrjanavart", true, 1)
+ddtreemenu.createTree("news", true, 1)
+ddtreemenu.createTree("mankapartez", true, 1)
+
+			//ddtreemenu.createTree("nyuter", false)
+			
+
+			</script> 
+			</div>
+			<!-----------MENU ENDS------------->
+			
+			<div id="site-content">
+			<div class="site-content">
+
+		
+	
+
+
+	<!-- End of header. -->

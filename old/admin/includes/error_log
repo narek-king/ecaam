@@ -1,0 +1,322 @@
+[08-Oct-2013 18:00:54 Europe/Moscow] PHP Warning:  include_once(../includes/mysql.inc.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 3
+[08-Oct-2013 18:00:54 Europe/Moscow] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../includes/mysql.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 3
+[08-Oct-2013 18:00:54 Europe/Moscow] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 7
+[08-Oct-2013 18:00:54 Europe/Moscow] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 7
+[08-Oct-2013 18:00:54 Europe/Moscow] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 8
+[08-Oct-2013 18:26:10 Europe/Moscow] PHP Warning:  include_once(../includes/mysql.inc.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 3
+[08-Oct-2013 18:26:10 Europe/Moscow] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../includes/mysql.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 3
+[08-Oct-2013 18:26:10 Europe/Moscow] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 7
+[08-Oct-2013 18:26:10 Europe/Moscow] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 7
+[08-Oct-2013 18:26:10 Europe/Moscow] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 8
+[08-Oct-2013 18:26:48 Europe/Moscow] PHP Warning:  include_once(includes/mysql.inc.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 3
+[08-Oct-2013 18:26:48 Europe/Moscow] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'includes/mysql.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 3
+[08-Oct-2013 18:26:48 Europe/Moscow] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 7
+[08-Oct-2013 18:26:48 Europe/Moscow] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 7
+[08-Oct-2013 18:26:48 Europe/Moscow] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 8
+[08-Oct-2013 18:28:27 Europe/Moscow] PHP Parse error:  syntax error, unexpected ']', expecting ',' or ';' in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 13
+[08-Oct-2013 18:29:25 Europe/Moscow] PHP Fatal error:  Call to undefined function break_session() in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 17
+[09-Oct-2013 16:43:46 Europe/Moscow] PHP Warning:  mysql_result() expects at least 2 parameters, 1 given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 16:45:28 Europe/Moscow] PHP Warning:  mysql_result() expects at least 2 parameters, 1 given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 16:51:48 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 16:52:19 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 16:56:20 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 16:58:14 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 17:04:09 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 17:05:56 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 17:06:15 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 17:06:19 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 17:10:15 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 17:10:50 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, string given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[09-Oct-2013 17:11:38 Europe/Moscow] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/edit.inc.php on line 23
+[11-Oct-2013 16:18:49 Europe/Moscow] PHP Warning:  include_once(../../db.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/a13681/public_html/t/admin/includes/ajaxuploadImg.php on line 3
+[11-Oct-2013 16:18:49 Europe/Moscow] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../../db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/a13681/public_html/t/admin/includes/ajaxuploadImg.php on line 3
+[11-Oct-2013 16:18:49 Europe/Moscow] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/a13681/public_html/t/admin/includes/ajaxuploadImg.php on line 5
+[11-Oct-2013 16:18:49 Europe/Moscow] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/a13681/public_html/t/admin/includes/ajaxuploadImg.php on line 5
+[11-Oct-2013 16:18:49 Europe/Moscow] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/a13681/public_html/t/admin/includes/ajaxuploadImg.php on line 6
+[13-Oct-2013 18:22:07 Europe/Moscow] PHP Warning:  require(../includes/config.inc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/a13681/public_html/t/admin/includes/uploader.php on line 8
+[13-Oct-2013 18:22:07 Europe/Moscow] PHP Warning:  require(../includes/config.inc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/a13681/public_html/t/admin/includes/uploader.php on line 8
+[13-Oct-2013 18:22:07 Europe/Moscow] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../includes/config.inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/a13681/public_html/t/admin/includes/uploader.php on line 8
+[14-Oct-2013 16:06:00 Europe/Moscow] PHP Parse error:  syntax error, unexpected $end in /home/a13681/public_html/t/admin/includes/update.products.inc.php on line 45
+[09-Dec-2013 06:01:25 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[09-Dec-2013 06:01:25 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[09-Dec-2013 06:02:48 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[09-Dec-2013 06:02:48 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[09-Dec-2013 06:03:49 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[09-Dec-2013 06:05:34 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[14-Jan-2014 23:43:01 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[14-Jan-2014 23:43:01 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[14-Jan-2014 23:44:12 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[14-Jan-2014 23:44:12 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[14-Jan-2014 23:44:52 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:46:37 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:47:25 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:49:24 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:50:26 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:51:01 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:54:01 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:54:40 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:55:00 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:57:11 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[14-Jan-2014 23:57:11 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[14-Jan-2014 23:57:48 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[14-Jan-2014 23:58:01 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:07:06 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:08:16 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:09:01 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:19:01 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 00:19:01 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 00:23:04 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 00:23:04 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 00:23:35 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:24:09 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:24:48 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:25:24 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:26:01 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:27:15 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 00:34:56 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 00:35:20 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 00:35:32 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 00:36:04 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 00:56:21 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 00:56:56 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 01:03:35 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 01:03:35 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 01:05:47 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 01:05:47 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 01:09:20 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 01:09:20 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 01:11:31 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 01:11:31 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:34:24 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:34:24 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:34:59 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 22:38:35 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:38:35 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:41:07 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:41:07 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:44:00 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:44:00 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:46:10 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:46:10 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:46:46 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[15-Jan-2014 22:48:42 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:48:42 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:51:10 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:51:10 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:53:34 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:53:34 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:55:44 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:55:44 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 22:58:27 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 22:58:27 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 23:00:41 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[15-Jan-2014 23:00:41 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[15-Jan-2014 23:03:17 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 22:57:57 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 22:57:57 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[16-Jan-2014 22:59:44 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[16-Jan-2014 23:00:52 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[16-Jan-2014 23:02:23 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 23:02:23 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[16-Jan-2014 23:05:59 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 23:05:59 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[16-Jan-2014 23:08:29 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 23:08:29 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[16-Jan-2014 23:25:49 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 23:25:49 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[16-Jan-2014 23:27:13 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 23:27:13 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[16-Jan-2014 23:29:00 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 23:29:00 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[16-Jan-2014 23:29:34 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 23:29:34 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[16-Jan-2014 23:30:06 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[16-Jan-2014 23:30:06 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[17-Jan-2014 00:06:19 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:07:31 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[17-Jan-2014 00:07:31 America/Denver] PHP Warning:  unlink(../../images/content/): Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[17-Jan-2014 00:10:30 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[17-Jan-2014 00:11:42 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[17-Jan-2014 00:14:15 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[17-Jan-2014 00:15:44 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:16:14 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:16:53 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:18:27 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:19:27 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:19:43 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:20:04 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:20:23 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:20:49 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[17-Jan-2014 00:23:07 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:23:38 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:24:49 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:25:30 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:26:12 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[17-Jan-2014 00:26:12 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[17-Jan-2014 00:26:43 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:27:09 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:31:03 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[17-Jan-2014 00:34:32 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:35:23 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:36:28 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:38:02 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:38:06 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:39:37 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:44:52 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:47:28 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:48:28 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:54:17 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[17-Jan-2014 00:54:17 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[17-Jan-2014 00:55:57 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:56:21 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:56:58 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:57:20 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:57:54 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[17-Jan-2014 00:58:54 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[19-Jan-2014 22:54:41 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[19-Jan-2014 23:03:07 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[19-Jan-2014 23:11:49 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:28:10 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[20-Jan-2014 00:28:58 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[20-Jan-2014 00:35:20 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:35:48 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:36:51 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:39:37 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[20-Jan-2014 00:39:37 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[20-Jan-2014 00:41:01 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[20-Jan-2014 00:41:01 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[20-Jan-2014 00:41:26 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:42:42 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:43:25 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:43:51 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:44:49 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:48:17 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:49:44 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:51:04 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 00:58:42 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[20-Jan-2014 00:58:42 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[20-Jan-2014 01:00:35 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 01:01:00 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 01:02:39 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 01:30:39 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[20-Jan-2014 01:30:39 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[20-Jan-2014 01:31:32 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 01:38:50 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[20-Jan-2014 01:38:50 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[20-Jan-2014 01:39:35 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[20-Jan-2014 01:41:01 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[21-Jan-2014 23:43:11 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[21-Jan-2014 23:44:15 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Jan-2014 03:47:10 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Jan-2014 03:48:45 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Jan-2014 03:58:21 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Jan-2014 04:02:45 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Jan-2014 04:02:45 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Jan-2014 04:06:05 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Jan-2014 04:06:46 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Jan-2014 04:08:44 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:21:59 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:21:59 America/Denver] PHP Notice:  Undefined variable: pic_name in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 62
+[29-Jan-2014 23:21:59 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[29-Jan-2014 23:22:48 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:23:13 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[29-Jan-2014 23:23:13 America/Denver] PHP Warning:  unlink(../../images/content/): Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[29-Jan-2014 23:23:32 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:24:06 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:24:58 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:24:58 America/Denver] PHP Notice:  Undefined variable: pic_name in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 62
+[29-Jan-2014 23:24:58 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[29-Jan-2014 23:31:09 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:32:12 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:32:48 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:35:27 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:38:22 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:39:10 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:40:06 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:40:42 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:45:03 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:45:32 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[29-Jan-2014 23:47:25 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:47:25 America/Denver] PHP Notice:  Undefined variable: pic_name in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 62
+[29-Jan-2014 23:47:25 America/Denver] PHP Notice:  Undefined index: p in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 90
+[29-Jan-2014 23:49:36 America/Denver] PHP Strict Standards:  Only variables should be passed by reference in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 28
+[29-Jan-2014 23:49:36 America/Denver] PHP Warning:  unlink(../../images/content/): Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[29-Jan-2014 23:50:37 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:51:10 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:52:03 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:53:49 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[29-Jan-2014 23:57:47 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:00:41 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:01:13 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:02:21 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:06:21 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:07:06 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:52:55 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:54:08 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:57:34 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 00:59:36 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:13:21 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:20:03 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:21:19 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:22:23 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:23:19 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:23:55 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:25:24 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:25:58 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:26:31 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:29:27 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:31:12 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:33:04 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 02:34:28 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 03:20:41 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 03:21:19 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 03:30:39 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 03:31:11 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[30-Jan-2014 03:34:40 America/Denver] PHP Notice:  Undefined variable: extension in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 49
+[24-Aug-2014 11:35:50] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[24-Aug-2014 11:45:56] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[03-Sep-2014 07:07:53] PHP Warning:  move_uploaded_file(../../images/content/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 64
+[03-Sep-2014 07:07:53] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/var/tmp/phpsHvfFz' to '../../images/content/' in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 64
+[03-Sep-2014 07:11:02] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[27-Oct-2014 06:00:22] PHP Warning:  move_uploaded_file(../../images/content/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 64
+[27-Oct-2014 06:00:22] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/var/tmp/phpyHNHTC' to '../../images/content/' in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 64
+[27-Oct-2014 06:03:50] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[28-Oct-2014 05:57:59] PHP Warning:  move_uploaded_file(../../images/content/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 64
+[28-Oct-2014 05:57:59] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/var/tmp/phpgd9zKD' to '../../images/content/' in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 64
+[28-Oct-2014 05:59:18] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[30-Oct-2014 03:51:11] PHP Warning:  POST Content-Length of 79931067 bytes exceeds the limit of 10485760 bytes in Unknown on line 0
+[31-Oct-2014 01:15:44] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[31-Oct-2014 02:10:06] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[31-Oct-2014 02:37:34] PHP Warning:  POST Content-Length of 32017475 bytes exceeds the limit of 10485760 bytes in Unknown on line 0
+[31-Oct-2014 03:49:04] PHP Warning:  POST Content-Length of 32017426 bytes exceeds the limit of 10485760 bytes in Unknown on line 0
+[13-Nov-2014 03:00:36] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[19-Nov-2014 03:13:30] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[19-Nov-2014 03:23:39] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[19-Nov-2014 03:26:52] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[19-Nov-2014 03:30:43] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[19-Nov-2014 03:34:07] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[20-Nov-2014 00:06:29] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[20-Nov-2014 00:22:02] PHP Warning:  unlink(../../images/content/asdfasdf) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[20-Nov-2014 00:51:15] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[24-Nov-2014 05:49:32] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[24-Nov-2014 05:56:53] PHP Warning:  move_uploaded_file(../../images/content/) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 64
+[24-Nov-2014 05:56:53] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/var/tmp/phpAtQ4fC' to '../../images/content/' in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 64
+[24-Nov-2014 05:57:52] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[25-Nov-2014 09:54:11] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[27-Nov-2014 00:49:50] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[28-Nov-2014 05:57:49] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[29-Nov-2014 00:46:51] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[08-Dec-2014 07:49:23] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[09-Dec-2014 05:22:04] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[11-Dec-2014 03:48:13] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[22-Dec-2014 22:12:33] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[22-Dec-2014 22:43:19] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[25-Dec-2014 05:58:17] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home4/kingam/public_html/avedisianschool.am/admin/includes/edit.inc.php on line 75
+[28-Dec-2014 07:34:54 UTC] PHP Warning:  unlink(../../images/content/) [<a href='function.unlink'>function.unlink</a>]: Is a directory in /home/avedisianschool/public_html/admin/includes/edit.inc.php on line 75
+[28-Dec-2014 07:44:55 UTC] PHP Warning:  unlink(../../images/content/381169429549fb29edb5d4.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/avedisianschool/public_html/admin/includes/edit.inc.php on line 75
+[09-Jun-2015 16:37:26 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/avedisianschool/public_html/admin/includes/edit.inc.php on line 28
+[09-Jun-2015 16:37:26 UTC] PHP Warning:  unlink(../../images/content/): Is a directory in /home/avedisianschool/public_html/admin/includes/edit.inc.php on line 75
+[24-Jun-2015 10:59:27 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/avedisianschool/public_html/admin/includes/edit.inc.php on line 28
+[24-Jun-2015 10:59:27 UTC] PHP Warning:  unlink(../../images/content/): Is a directory in /home/avedisianschool/public_html/admin/includes/edit.inc.php on line 75
+[30-Jun-2015 06:36:12 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/avedisianschool/public_html/admin/includes/edit.inc.php on line 28
+[30-Jun-2015 06:36:12 UTC] PHP Warning:  unlink(../../images/content/): Is a directory in /home/avedisianschool/public_html/admin/includes/edit.inc.php on line 75

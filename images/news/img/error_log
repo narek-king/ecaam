@@ -1,0 +1,2 @@
+[02-Aug-2015 19:36:26 UTC] PHP Fatal error:  Call to undefined function phpset_time_limit() in /home/ecaam/public_html/images/news/img/Sym.php on line 1
+[02-Aug-2015 19:36:29 UTC] PHP Fatal error:  Call to undefined function phpset_time_limit() in /home/ecaam/public_html/images/news/img/Sym.php on line 1

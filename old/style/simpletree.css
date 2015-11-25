@@ -1,0 +1,89 @@
+.treeview ul{ /*CSS for Simple Tree Menu*/
+margin: 0;
+padding: 0;
+}
+
+.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+/*background: white url(list.gif) no-repeat left center;*/
+list-style-type: none;
+min-height: 54px;
+}
+
+.treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+background: white url(closed.gif) no-repeat left 1px;
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+.sub{
+    padding-top: 5px;
+}
+.treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+}
+
+.treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+min-height: 33px;
+
+
+
+}
+.treeview .submenu ul li a{ 
+color: #000;
+text-decoration: none;
+padding-left: 15px;
+vertical-align: sub;
+display: block;
+padding-top:5px;
+}
+
+#menu ul  {
+    padding: 0;
+}
+
+ .treeview h3 {
+    padding:14px 5px;
+    vertical-align: sub;
+    margin: 2px 0 5px 0;
+    font-size: 1.15em;
+ }
+.small {
+    font-size: 16px;
+    padding: 7px 5px !important;
+}
+
+
+  
+ #home li    {  background: url(images/menu-glxavor.png) no-repeat left top; }
+ 
+ #about_us li{ background: url(images/menu-mermasin.png) no-repeat left top;}
+ #about_us .submenu ul li{ background: url(images/menu-mermasin-sub.png) no-repeat left top;
+ background-size: 270px 30px;}
+ 
+#teachers li{background: url(images/menu-usucich.png) no-repeat left top;}
+#teachers .submenu ul li{background: url(images/menu-usucich-sub.png) no-repeat left top;
+ background-size: 270px 30px;}
+ 
+#ashakert li{background: url(images/menu-ashakert.png) no-repeat left top;}
+#ashakert .submenu ul li{background: url(images/menu-ashakert-sub.png) no-repeat left top;
+ background-size: 270px 30px;}
+
+#shrjanavart li{background: url(images/menu-shrjanavartner.png) no-repeat left top;}
+#shrjanavart .submenu ul li{background: url(images/menu-shrjanavart-sub.png) no-repeat left top;
+ background-size: 300px 30px;}
+
+#news li{background: url(images/menu-norutyunner.png) no-repeat left top; }
+#news .submenu ul li{ background: url(images/menu-norutyunner-sub.png) no-repeat left top;
+ background-size: 270px 30px;}
+
+#mankapartez li{ background: url(images//menu-glxavor.png) no-repeat left top; }
+#mankapartez .submenu ul li{background: url(images/menu-mankapartez-sub.png) no-repeat left top;
+ background-size: 270px 30px;}
+
+#nyuter li{ background:  url(images/menu-mermasin.png) no-repeat left top;}
+#nyuter .submenu ul li{ background: url(images/menu-mermasin-sub.png) no-repeat left top;
+ background-size: 270px 30px;}
+
+#bajanordagrvel li{background: url(images/menu-bajanortagrvel.png) no-repeat left top;}
+#bajanordagrvel .submenu ul li{}

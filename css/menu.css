@@ -1,0 +1,70 @@
+#menu{
+	background: url(../img/menu_bg.png);
+	list-style-type: none;
+}
+#menu li{
+/*background:url(../img/menu.png) repeat-x;*/
+float:left;
+margin-right:10px;
+min-width:140px;
+height:27px;
+text-align:center;
+border-radius:3px;
+padding-top:3px;
+margin-top:6px;
+padding-left:3px;
+padding-right:3px;
+
+/* menu shadow */
+	-moz-box-shadow: 2px 3px 4px #584020;
+	-webkit-box-shadow: 2px 3px 4px #584020;
+	box-shadow: 2px 3px 4px #584020;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black');
+
+
+
+}
+#menu a:link{color:white;}
+#menu a:visited{color:white;}
+#menu a:hover{color:white;}
+#menu li:hover{background:url(../img/menu_h.png) repeat-x;}
+#menu li:active{background:url(../img/menu_h.png) repeat-x;}
+#mydiv{min-width:100px;display: none;margin-top:-15px;
+ z-index:9999;
+ -moz-z-index:9999;
+ }
+
+ul.sub{list-style-type: none; margin-top: 15px;}
+ul.sub li{
+opacity:0.8;
+min-width:130px;
+/*background:url(../img/submenu.png) repeat-x;*/
+background:#fff;
+text-align:center;
+text-align:center;
+border-radius:1px;
+height:27px;
+cursor:pointer;	
+	-moz-box-shadow: 1px 1px 1px black;
+	-webkit-box-shadow: 1px 1px 1px black;
+	box-shadow: 1px 1px 1px black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black');
+}
+
+ul.sub li:hover{opacity:1;}
+ul.sub a{text-decoration:none;color:black}
+
+
+div.pagination a:hover{color:black}
+
+a.more{width:80px;height:20px;display:block; border-radius:3px; background:url(../img/menu.png) repeat-x;
+-moz-box-shadow: 3px 3px 4px black;
+	-webkit-box-shadow: 3px 3px 4px black;
+	box-shadow: 3px 3px 4px black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black');
+text-align:center;
+}
+a.more:hover{background:url(../img/menu1.png) repeat-x;}

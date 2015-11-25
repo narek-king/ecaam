@@ -1,0 +1,53 @@
+#menu{background:grey;list-style-type: none; text-align:center}
+#menu li{
+background:url(../../img/menu.png) repeat-x;
+float:left;
+margin-right:10px;
+min-width:115px;
+height:27px;
+text-align:center;
+border-radius:3px;
+padding-top:3px;
+margin-top:6px;
+padding-left:3px;
+padding-right:3px;
+
+/* menu shadow */
+	-moz-box-shadow: 3px 3px 4px black;
+	-webkit-box-shadow: 3px 3px 4px black;
+	box-shadow: 3px 3px 4px black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black');
+
+
+
+}
+#menu a:link{color:white;}
+#menu a:visited{color:white;}
+#menu a:hover{color:white;}
+#menu li:hover{background:url(../../img/menu1.png) repeat-x;}
+#menu li:active{background:url(../../img/menu.png) repeat-x;}
+#mydiv{min-width:150px; min-height:200px;display: none;}
+
+ul.sub{list-style-type: none; margin-top:1px;}
+ul.sub li{
+background:url(../../img/submenu.png) repeat-x;
+text-align:center;
+text-align:center;
+border-radius:4px;
+height:27px;
+cursor:pointer;	
+	-moz-box-shadow: 3px 3px 4px black;
+	-webkit-box-shadow: 3px 3px 4px black;
+	box-shadow: 3px 3px 4px black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='black');
+}
+
+ul.sub li:hover{opacity:0.8;}
+ul.sub a{text-decoration:none}
+
+.del{width:22px;height:20px;border:0;cursor:pointer;background:url(../../images/news/img/delete.png) center;position:absolute;margin-left:10px;}
+a.eca:link{color:black;text-decoration:none;font-size:20px;}
+a.eca:visited{color:black;text-decoration:none;font-size:20px;}
+a.eca:hover{color:white;text-decoration:underline;font-size:20px;}

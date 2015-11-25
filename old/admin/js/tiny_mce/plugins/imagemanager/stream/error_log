@@ -1,0 +1,15 @@
+[07-Dec-2012 02:34:15] PHP Fatal error:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[19-Nov-2014 07:25:05] PHP Fatal error:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[19-Nov-2014 08:18:25] PHP Fatal error:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[19-Nov-2014 23:40:50] PHP Fatal error:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[28-Dec-2014 07:46:40 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[28-Dec-2014 07:46:44 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[28-Dec-2014 07:46:45 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[28-Dec-2014 07:46:48 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[28-Dec-2014 07:46:48 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 13824 bytes) in /home/avedisianschool/public_html/admin/js/tiny_mce/plugins/imagemanager/classes/ImageManager/Utils/MCImageToolsGD.php on line 372
+[28-Dec-2014 07:46:52 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3456 bytes) in /home/avedisianschool/public_html/admin/js/tiny_mce/plugins/imagemanager/classes/ImageManager/Utils/MCImageToolsGD.php on line 372
+[28-Dec-2014 07:48:48 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3456 bytes) in /home/avedisianschool/public_html/admin/js/tiny_mce/plugins/imagemanager/classes/ImageManager/Utils/MCImageToolsGD.php on line 372
+[28-Dec-2014 07:49:21 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3456 bytes) in /home/avedisianschool/public_html/admin/js/tiny_mce/plugins/imagemanager/classes/ImageManager/Utils/MCImageToolsGD.php on line 372
+[28-Dec-2014 07:49:42 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3456 bytes) in /home/avedisianschool/public_html/admin/js/tiny_mce/plugins/imagemanager/classes/ImageManager/Utils/MCImageToolsGD.php on line 372
+[28-Dec-2014 07:56:37 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3456 bytes) in /home/avedisianschool/public_html/admin/js/tiny_mce/plugins/imagemanager/classes/ImageManager/Utils/MCImageToolsGD.php on line 372
+[28-Dec-2014 07:57:00 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3456 bytes) in /home/avedisianschool/public_html/admin/js/tiny_mce/plugins/imagemanager/classes/ImageManager/Utils/MCImageToolsGD.php on line 372
